@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body, html {
+    background-color: rgb(208, 200, 200);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center; 
+    background-color: white;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+.middle {
+    display: flex;
+    align-items: space-around;
+    justify-items: space-between;
+    gap: 5em;
+    text-decoration: none;
+}
+
+.right {
+    display: flex;
+    gap: 2em;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background-color:rgb(18, 1, 1);
+    color: white;
+    height: 5rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+footer p{
+    font-size: 20px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container2 {
+    max-width: 90%;
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    line-height: 1.6;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10rem;
+    gap: 5rem;
+
+
+}
+
+.nvidiaimg {
+    width: 260px;
+    height: 30vh;
+    object-fit: cover;
+    align-self:stretch;
+    position: relative;
+}
+
+.nvidiainfo {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    /* padding: 20px; */
+}
+
+.nvidia {
+    background-color: rgb(233, 237, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid;
+    border-color: rgb(96, 96, 98);
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.5);
+}
+
+.textitle {
+    color: rgb(55, 147, 18);
+    font-size: 18px;
+    margin: auto auto;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.description {
+    font-size: 14px;
+    margin: auto auto;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.nvidiacard {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid;
+}
